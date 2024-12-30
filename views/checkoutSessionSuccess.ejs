@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Success</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 90%;
+        }
+        .container h1 {
+            color: #2d87d7;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .container p {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 15px 0;
+        }
+        .checkmark {
+            font-size: 48px;
+            color: #2d87d7;
+            margin-bottom: 20px;
+            animation: bounce 1s ease;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            color: #fff;
+            background-color: #2d87d7;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+            box-shadow: 0px 4px 10px rgba(45, 135, 215, 0.3);
+        }
+        .button:hover {
+            background-color: #2467a5;
+        }
+        .footer-note {
+            font-size: 14px;
+            color: #666;
+            margin-top: 20px;
+        }
+
+        /* Animation */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="checkmark">✔️</div>
+        <h1>Subscription Successful!</h1>
+        <p>Thank you for subscribing! We’re excited to have you with us.</p>
+        <a href="https://devapp.acceptmyprice.com/vendor/info" class="button">Continue</a>
+        <p class="footer-note">Need help? <a href="mailto:support@example.com">Contact support</a></p>
+    </div>
+</body>
+</html>

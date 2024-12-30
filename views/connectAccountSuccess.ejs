@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stripe Connect Setup Successful</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            color: #4a90e2;
+            margin-bottom: 15px;
+        }
+
+        .container p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #4a90e2;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #357ABD;
+        }
+
+        .stripe-logo {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>You're Connected!</h1>
+    <p>Congratulations! Your Stripe Connect setup is complete, and you're now ready to start receiving payments securely through Stripe.</p>
+    <a href="https://devapp.acceptmyprice.com/dashboard" class="btn">Go to Dashboard</a>
+    
+    <div class="stripe-logo">
+        <p>Powered by Stripe</p>
+    </div>
+</div>
+
+</body>
+</html>
